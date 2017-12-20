@@ -1,5 +1,5 @@
 # RMQ-With-Shift
-In the traditional RMQ (Range Minimum Query) problem,<br>
+In the traditional RMQ (Range Minimum Query) problem<br>
 we have a static array A. Then for each query (L, R) (L<=R),
 we report the minimum value among A[L], A[L+1], …, A[R]. 
 
