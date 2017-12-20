@@ -1,4 +1,4 @@
-# RMQ-With-Shift
+# RMQ With Shift
 In the traditional RMQ (Range Minimum Query) problem,
 we have a static array A. Then for each query (L, R) (L<=R), we report the minimum value among A[L], A[L+1], …, A[R]. Note that the indices start from 1, i.e. the left-most element is A[1].
 In this problem, the array A is no longer static: we need to support another operation shift(i1, i2, i3, …, ik) (i1<i2<...<ik, k>1): we do a left "circular shift" of A[i1], A[i2], …, A[ik].<br>
