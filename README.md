@@ -1,5 +1,5 @@
 # RMQ-With-Shift
-In the traditional RMQ (Range Minimum Query) problem,
+In the traditional RMQ (Range Minimum Query) problem,<br>
 we have a static array A. Then for each query (L, R) (L<=R),
 we report the minimum value among A[L], A[L+1], …, A[R]. 
 
@@ -14,9 +14,9 @@ After that, shift(1,2) yields {8, 6, 4, 5, 4, 1, 2}.
 Input
 There will be only one test case, beginning with two integers n, q (1<=n<=100,000, 1<=q<=120,000),
 the number of integers in array A, and the number of operations.
-The next line contains n positive（完全的） integers not greater than 100,000, the initial elements in array A. 
+The next line contains n positive integers not greater than 100,000, the initial elements in array A. 
 Each of the next q lines contains an operation. 
-Each operation is formatted（格式化） as a string having no more than 30 characters, with no space characters inside. 
+Each operation is formatted as a string having no more than 30 characters, with no space characters inside. 
 All operations are guaranteed to be valid. Warning: The dataset is large, better to use faster I/O methods.
 
 Output
@@ -24,13 +24,14 @@ For each query, print the minimum value (rather than index) in the requested ran
 
 Sample Input
 Output for the Sample Input
-7 5
-6 2 4 8 5 1 4
-query(3,7)
-shift(2,4,5,7)
-query(1,4)
-shift(1,2)
-query(2,2)
-1
-4
-6
+
+7 5<br>
+6 2 4 8 5 1 4<br>
+query(3,7) <br>
+shift(2,4,5,7) <br>
+query(1,4) <br>
+shift(1,2) <br>
+query(2,2) <br>
+1<br>
+4<br>
+6<br>
