@@ -12,8 +12,9 @@ There will be only one test case, beginning with two integers n, q (1<=n<=100,00
 For each query, print the minimum value (rather than index) in the requested range.
 
 Sample Input
-```
+
 Output for the Sample Input
+```
 7 5
 6 2 4 8 5 1 4
 query(3,7)
