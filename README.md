@@ -5,21 +5,23 @@ In this problem, the array A is no longer static: we need to support another ope
 
 For example, if A={6, 2, 4, 8, 5, 1, 4}, then shift(2, 4, 5, 7) yields {6, 8, 4, 5, 4, 1, 2}. After that, shift(1,2) yields {8, 6, 4, 5, 4, 1, 2}.
 
-Input<br>
+### Input
 There will be only one test case, beginning with two integers n, q (1<=n<=100,000, 1<=q<=120,000), the number of integers in array A, and the number of operations. The next line contains n positive integers not greater than 100,000, the initial elements in array A. Each of the next q lines contains an operation. Each operation is formatted as a string having no more than 30 characters, with no space characters inside. All operations are guaranteed to be valid. Warning: The dataset is large, better to use faster I/O methods.
 
-Output<br>
+### Output
 For each query, print the minimum value (rather than index) in the requested range.
 
-Sample Input<br>
-Output for the Sample Input<br>
-7 5<br>
-6 2 4 8 5 1 4<br>
-query(3,7)<br>
-shift(2,4,5,7)<br>
-query(1,4)<br>
-shift(1,2)<br>
-query(2,2)<br>
-1<br>
-4<br>
-6<br>
+Sample Input
+```
+Output for the Sample Input
+7 5
+6 2 4 8 5 1 4
+query(3,7)
+shift(2,4,5,7)
+query(1,4)
+shift(1,2)
+query(2,2)
+1
+4
+6
+```
